@@ -30,7 +30,6 @@
     &#{$mod} {
       @include prop-map($seed-inline-sizes, (size)) {
         margin-bottom: -(prop(size));
-        margin-right: -(prop(size));
 
         &:last-child {
           margin-bottom: -(prop(size));
